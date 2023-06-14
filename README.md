@@ -1,5 +1,13 @@
 # Week 1 - Project 
 
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+python -m pytest -v tests
+
 # Goal
 To Establish a Robust and Reliable Development process by settting version control using Git, implementing comprehensive Unit Tests, and setting up effective workflows to ensure that only properly tested code is merged from other branches into the Master branch.
 
